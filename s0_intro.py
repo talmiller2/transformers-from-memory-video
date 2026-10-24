@@ -17,7 +17,7 @@ class Intro(VScene):
             T(r"or affiliated with Alex Wang.", size=36, color=SOFT),
         ).arrange(DOWN, buff=0.1, aligned_edge=LEFT)
         text = VGroup(title, sub, disc).arrange(DOWN, buff=0.55, aligned_edge=LEFT).to_edge(LEFT, buff=0.7)
-        kea = ImageMobject(str(ROOT / "assets" / "kea.png")).set_height(6.0).to_edge(RIGHT, buff=0.0).shift(RIGHT * 0.5 + UP * 0.5)
+        kea = ImageMobject(str(ROOT / "assets" / "kea.png")).set_height(5.8).to_edge(RIGHT, buff=0.0).shift(RIGHT * 0.9 + UP * 0.5)
         card = Group(kea, text)
         with self.voice(
             "You could have invented transformers from memory. This is an animated adaptation of Alex Wang's post "

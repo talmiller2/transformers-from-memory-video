@@ -21,6 +21,7 @@ product) to 128 (least squares), about 2,700 (squared-ReLU MLP) and over a milli
 | `build.sh` | Renders every scene, joins them with narration, and writes the video, subtitles and narration script to `out/`. |
 | `fetch_assets.sh` | Downloads the voice model and the title-card painting (not redistributed here). |
 | `frames.sh` | Contact sheet of frames from a rendered scene, for checking layout. |
+| `thumbnail.py` | The YouTube thumbnail: `manim -s -r 1280,720 --disable_caching thumbnail.py Thumbnail`. |
 
 ## How the narration works
 

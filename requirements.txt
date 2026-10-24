@@ -1,0 +1,6 @@
+manim==0.22.0
+numpy
+scipy
+pillow<12          # manim 0.22 image compositing breaks on Pillow 12+
+kokoro-onnx==0.6.1 # local neural text-to-speech for the narration
+soundfile

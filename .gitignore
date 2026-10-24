@@ -1,0 +1,9 @@
+# rendered output and caches
+media/
+out/
+__pycache__/
+.DS_Store
+
+# downloaded by fetch_assets.sh, not redistributed here
+models/
+assets/
